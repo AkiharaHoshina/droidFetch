@@ -29,7 +29,7 @@
 由于 `droidFetch` 依赖 Android 的底层系统命令（如 `getprop`），该工具需要在 Android 设备的终端环境中运行（推荐使用 [Termux](https://termux.dev/)）。
 
 1. 克隆本仓库:
-   git clone https://github.com/yourusername/droidFetch.git
+   git clone https://github.com/AkiharaHoshina/droidFetch.git
    cd droidFetch
 
 2. 赋予执行权限:
