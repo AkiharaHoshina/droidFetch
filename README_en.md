@@ -27,13 +27,14 @@ A highly customizable, fast, and lightweight system information tool specificall
 Since `droidFetch` relies on Android system commands (like `getprop`), it is intended to be run directly on an Android device (e.g., via [Termux](https://termux.dev/)).
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/droidFetch.git
+   git clone https://github.com/AkiharaHoshina/droidFetch.git
+   
    cd droidFetch
 
-2. Make the script executable:
+3. Make the script executable:
    chmod +x dfetch-unstable-0.2.py
 
-3. Run it:
+4. Run it:
    python3 dfetch-unstable-0.2.py
 
 *(Optional)* You can rename the script to `dfetch` and move it to your bin folder (e.g., `PREFIX/bin/` in Termux) for global access.
@@ -65,6 +66,9 @@ This creates `~/.config/dfetch/dfetch.conf`. Open it in any text editor to modif
 
 # dfetch configuration file
 distro=default        # Override detected ROM (e.g., set to CRDROID)
+
 color=default         # Override color (e.g., set to \033[1;31m)
+
 custom_ascii=default  # Path to a text file containing custom ASCII art
+
 tablet_mode=default   # Set to 'true' to always use horizontal mode
