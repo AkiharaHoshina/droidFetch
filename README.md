@@ -30,12 +30,13 @@
 
 1. 克隆本仓库:
    git clone https://github.com/AkiharaHoshina/droidFetch.git
+   
    cd droidFetch
 
-2. 赋予执行权限:
+3. 赋予执行权限:
    chmod +x dfetch-unstable-0.2.py
 
-3. 运行测试:
+4. 运行测试:
    python3 dfetch-unstable-0.2.py
 
 *(可选)* 你可以将脚本重命名为 `dfetch` 并移动到全局环境变量目录中（例如 Termux 的 `PREFIX/bin/`），以便随时调用。
@@ -66,7 +67,10 @@ python3 dfetch-unstable-0.2.py --gen-config
 这将在 `~/.config/dfetch/dfetch.conf` 生成文件。使用文本编辑器打开它，即可修改默认行为：
 
 # dfetch 配置文件
-distro=default        # 强制指定发行版徽标（例如改为 CRDROID）.
-color=default         # 强制修改颜色（例如改为 \033[1;31m）.
-custom_ascii=default  # 指向包含自定义 ASCII 图案的 txt 文件路径.
-tablet_mode=default   # 修改为 'true' 以默认开启横屏模式.
+distro=default        # 强制指定发行版徽标（例如改为 CRDROID）
+
+color=default         # 强制修改颜色（例如改为 \033[1;31m）
+
+custom_ascii=default  # 指向包含自定义 ASCII 图案的 txt 文件路径
+
+tablet_mode=default   # 修改为 'true' 以默认开启横屏模式
