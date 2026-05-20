@@ -1,5 +1,6 @@
 # droidFetch (dfetch) 📱
 
+[English Ver.](https://github.com/AkiharaHoshina/droidFetch/blob/c36f04d5a234743fb6d762bc2eee06df3b41609d/README_en.md)
 一款专为 Android 环境深度定制的系统信息命令行展示工具。在终端中优雅地展示你的设备软硬件信息。
 
 ## ✨ 核心特性
